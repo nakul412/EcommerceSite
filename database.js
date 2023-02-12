@@ -1,4 +1,4 @@
-require('dotenv').config()
+
 const mongoose=require("mongoose");
 // console.log(process.env.SECRET_KEY)
 const DB=`${process.env.SECRET_KEY}`;

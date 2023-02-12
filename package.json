@@ -7,6 +7,7 @@
     "mongodb": "^5.0.1",
     "mongoose": "^6.9.1",
     "nodemon": "^2.0.20",
+    "path": "^0.12.7",
     "scripts": "^0.1.0",
     "validator": "^13.9.0"
   },
@@ -17,7 +18,6 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "collections.js",
-  "devDependencies": {},
   "author": "",
   "license": "ISC",
   "description": ""

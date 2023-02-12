@@ -1,0 +1,14 @@
+.cart-container {
+    padding-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.totalPrice {
+    margin: 2rem auto;
+    background: #eee;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+}

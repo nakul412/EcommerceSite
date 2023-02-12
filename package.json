@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "scripts": "^0.1.0",
+    "validator": "^13.9.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "build:deploy": "cross-env NODE_ENV=production webpack",
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "collections.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
